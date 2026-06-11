@@ -16,6 +16,7 @@ export class UserService {
         lname: registerUserDto?.lname,
         email: registerUserDto?.email,
         password: registerUserDto?.password,
+        role: registerUserDto?.role,
       })
     } catch (err) { // Error handling technique
       console.log(err)

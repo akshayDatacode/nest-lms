@@ -43,6 +43,6 @@ export class AuthController {
     const userId = req.user.sub
     const user = await this.userService.getUserById(userId)
 
-    return { user: { fname: user?.fname, password: undefined } }
+    return { user: { fname: user?.fname, password: undefined, role: user?.role } }
   }
 }
