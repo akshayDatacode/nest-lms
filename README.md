@@ -1,6 +1,7 @@
 # NestJS LMS Platform
 
-![NestJS](https://nestjs.com/img/logo-small.svg)
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
 This project is a **Learning Management System (LMS)** built with [NestJS](https://nestjs.com/). It includes an **authentication system** with **Role-Based Access Control (RBAC)** and **JWT-based authentication**. The platform allows users to register, log in, and perform actions based on their roles.
 
